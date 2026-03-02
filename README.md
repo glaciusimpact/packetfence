@@ -1,6 +1,6 @@
 # PacketFence
 
-PacketFence is an open-source network access control (NAC) system. This software is free if it is self-hosted (cloud version is not free and support is not free either). With this tool we can protect a network allowing or denying network devices connecting to network devices like network switches or Wifi Access Point.
+PacketFence is an open-source Network Access Control (NAC) system. This software is free if it is self-hosted (cloud version is not free and support is not free either). With this tool we can protect a network allowing or denying network devices connecting to network devices like network switches or Wifi Access Point.
 
 # 1 - Objective
 
