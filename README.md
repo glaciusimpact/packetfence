@@ -35,17 +35,15 @@ With this logic we can set the correct VLANs to the device and a default VLAN fo
 The installation of PacketFence will be made on VirtualBox using the ISO image provided (around 900 MB) for self-hosting.
 
 According to the documentation:
-##############################################
 
-The ISO edition of PacketFence allows you to install PacketFence on Debian 12 with minimal effort.
-
-Download the ISO here: [https://www.packetfence.org/download.html#/releases](https://www.packetfence.org/download.html#/releases)
-
-This setup has been tested using VMware ESXi, Proxmox VE and VirtualBox and works with any hypervisor PacketFence supports as well as bare-metal servers.
-
-A virtual machine or server with 16 GB of RAM dedicated to machine as well as 4 CPUs is required. Allocate at least 200GB of disk space for PacketFence.
-
-##############################################
+> [!NOTE]
+> The ISO edition of PacketFence allows you to install PacketFence on Debian 12 with minimal effort.
+>
+> Download the ISO here: [https://www.packetfence.org/download.html#/releases](https://www.packetfence.org/download.html#/releases)
+> 
+> This setup has been tested using VMware ESXi, Proxmox VE and VirtualBox and works with any hypervisor PacketFence supports as well as bare-metal servers.
+> 
+> A virtual machine or server with 16 GB of RAM dedicated to machine as well as 4 CPUs is required. Allocate at least 200GB of disk space for PacketFence.
 
 Well, well, well. In production we have to respect the requirements but for this little lab we will use a configuration with lower features since very few devices will be used:
 - 4 cores
