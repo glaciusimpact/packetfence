@@ -144,7 +144,7 @@ Save
 
 You can login with admin account.
 
-# 4 - Adding an authorised Role on PacketFence
+# 4 - Adding an allowed Role on PacketFence
 
 This Role will be used by all devices of the same VLAN we are going to use.
 
