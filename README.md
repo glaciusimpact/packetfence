@@ -23,8 +23,8 @@ Computer -> Network switch -> Internet
 The authentication of the devices (PC, printer, etc.) is performed that way:
 1. First the switch uses Radius protocol to send the MAC address of a device connecting to its port to PacketFence (which runs with a FreeRadius server embedded).
 2. PacketFence checks if the device is registered and has a Role.
-3. If the device does not have a Role then the device is not identified and the switch will apply to its port a default VLAN (called registration in the PacketFence configuration)
-4. If the device has a Role then the appropriate VLAN is provided in Radius by PacketFence then applied to the switch port
+3. If the device does not have a Role then the device is not identified and the switch will apply to its port a default VLAN (called registration in the PacketFence configuration).
+4. If the device has a Role then the appropriate VLAN is provided in Radius by PacketFence then applied to the switch port.
 
 With this logic we can set the correct VLANs to the device and a default VLAN for other devices (like guest users).
 
