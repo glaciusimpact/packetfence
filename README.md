@@ -101,7 +101,8 @@ On the appearing menu we choose:
 
 "Finishing the installation" part after is quite long (around 25 minutes). "Running preseed" is staying at 14% for a moment (20 minutes) downloading packages from the Internet. To check if there is an issue type Ctrl+Alt+F4 to see the install logs (Ctrl+Alt+F1).
 
-Warning: if you set a domain name without DNS then the installation will be endless...
+> [!WARNING]
+> Warning: if you set a domain name without DNS then the installation will be endless...
 
 When the installation is finished I got a prompt. 
 
